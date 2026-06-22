@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_secondary"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!-- Lock icon -->
+    <FrameLayout
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:background="@drawable/lock_icon_bg">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="🔒"
+            android:textSize="28sp"/>
+    </FrameLayout>
+
+    <!-- App title -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Мой пароль"
+        android:textColor="@color/text_primary"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <!-- Subtitle / error -->
+    <TextView
+        android:id="@+id/tv_subtitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="Введите PIN-код для доступа"
+        android:textColor="@color/text_secondary"
+        android:textSize="13sp"/>
+
+    <!-- PIN dots row -->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:orientation="horizontal">
+
+        <View android:id="@+id/dot1"
+            android:layout_width="14dp" android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_empty"/>
+        <View android:id="@+id/dot2"
+            android:layout_width="14dp" android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_empty"/>
+        <View android:id="@+id/dot3"
+            android:layout_width="14dp" android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_empty"/>
+        <View android:id="@+id/dot4"
+            android:layout_width="14dp" android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_empty"/>
+        <View android:id="@+id/dot5"
+            android:layout_width="14dp" android:layout_height="14dp"
+            android:layout_margin="8dp"
+            android:background="@drawable/pin_dot_empty"/>
+    </LinearLayout>
+
+    <!-- Numpad -->
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <Button android:id="@+id/btn1" style="@style/NumpadButton" android:text="1"/>
+        <Button android:id="@+id/btn2" style="@style/NumpadButton" android:text="2"/>
+        <Button android:id="@+id/btn3" style="@style/NumpadButton" android:text="3"/>
+        <Button android:id="@+id/btn4" style="@style/NumpadButton" android:text="4"/>
+        <Button android:id="@+id/btn5" style="@style/NumpadButton" android:text="5"/>
+        <Button android:id="@+id/btn6" style="@style/NumpadButton" android:text="6"/>
+        <Button android:id="@+id/btn7" style="@style/NumpadButton" android:text="7"/>
+        <Button android:id="@+id/btn8" style="@style/NumpadButton" android:text="8"/>
+        <Button android:id="@+id/btn9" style="@style/NumpadButton" android:text="9"/>
+        <Button android:id="@+id/btn_biometric" style="@style/NumpadButton" android:text="⊙" android:textSize="20sp"/>
+        <Button android:id="@+id/btn0" style="@style/NumpadButton" android:text="0"/>
+        <Button android:id="@+id/btn_delete" style="@style/NumpadButton" android:text="⌫" android:textSize="20sp"/>
+    </GridLayout>
+
+</LinearLayout>

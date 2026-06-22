@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Мой пароль</string>
+
+    <!-- Lock screen -->
+    <string name="enter_pin">Введите PIN-код\nдля доступа</string>
+    <string name="face_touch_id">Face ID / Touch ID</string>
+    <string name="wrong_pin">Неверный PIN-код</string>
+    <string name="pin_attempts_left">Осталось попыток: %d</string>
+    <string name="biometric_prompt_title">Вход в Мой пароль</string>
+    <string name="biometric_prompt_subtitle">Используйте биометрию для входа</string>
+    <string name="biometric_prompt_cancel">Отмена</string>
+
+    <!-- Home -->
+    <string name="home_title">Пароли</string>
+    <string name="all_passwords">Все</string>
+    <string name="security">Безопасность</string>
+    <string name="deleted">Удалённые</string>
+    <string name="wifi">Wi-Fi</string>
+    <string name="passwords_count">%d паролей</string>
+    <string name="password_count_one">%d пароль</string>
+    <string name="networks_count">%d сетей</string>
+
+    <!-- List -->
+    <string name="search_hint">Поиск…</string>
+
+    <!-- Detail -->
+    <string name="back">Назад</string>
+    <string name="label_login">ЛОГИН</string>
+    <string name="label_password">ПАРОЛЬ</string>
+    <string name="label_site">САЙТ</string>
+    <string name="label_notes">ЗАМЕТКИ</string>
+    <string name="show_password">Показать</string>
+    <string name="hide_password">Скрыть</string>
+    <string name="copy_password">Копировать</string>
+    <string name="edit_password">Изменить</string>
+    <string name="delete_password">Удалить</string>
+    <string name="copied_to_clipboard">Скопировано в буфер обмена</string>
+
+    <!-- Add / Edit -->
+    <string name="new_password_title">Новый пароль</string>
+    <string name="edit_password_title">Изменить пароль</string>
+    <string name="label_site_app">САЙТ / ПРИЛОЖЕНИЕ</string>
+    <string name="label_category">КАТЕГОРИЯ</string>
+    <string name="generate_password">✨  Сгенерировать пароль</string>
+    <string name="save">Сохранить</string>
+    <string name="hint_site">vk.com</string>
+    <string name="hint_login">user@email.ru</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_notes">Заметки (необязательно)</string>
+
+    <!-- Categories -->
+    <string name="cat_social">Социальные сети</string>
+    <string name="cat_finance">Финансы</string>
+    <string name="cat_email">Почта</string>
+    <string name="cat_work">Работа</string>
+    <string name="cat_entertainment">Развлечения</string>
+    <string name="cat_other">Другое</string>
+
+    <!-- Deleted -->
+    <string name="deleted_title">Удалённые</string>
+    <string name="deleted_empty_title">Удалённых паролей нет</string>
+    <string name="deleted_empty_subtitle">Пароли хранятся здесь 30 дней,\nзатем удаляются навсегда</string>
+    <string name="restore">Восстановить</string>
+    <string name="delete_forever">Удалить навсегда</string>
+    <string name="clear_all">Очистить всё</string>
+
+    <!-- Dialogs -->
+    <string name="confirm_delete_title">Удалить пароль?</string>
+    <string name="confirm_delete_msg">Пароль будет перемещён в корзину</string>
+    <string name="confirm_delete_forever_title">Удалить навсегда?</string>
+    <string name="confirm_delete_forever_msg">Это действие необратимо</string>
+    <string name="yes_delete">Удалить</string>
+    <string name="cancel">Отмена</string>
+
+    <!-- Setup PIN -->
+    <string name="setup_pin_title">Создайте PIN-код</string>
+    <string name="setup_pin_subtitle">Введите 4-значный PIN для защиты паролей</string>
+    <string name="confirm_pin_subtitle">Повторите PIN-код</string>
+    <string name="pin_mismatch">PIN-коды не совпадают. Попробуйте снова</string>
+    <string name="pin_created">PIN-код установлен</string>
+</resources>
